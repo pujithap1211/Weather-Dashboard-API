@@ -193,7 +193,7 @@ input:checked+label svg.moon {
 
 .left-box,
 .right-box {
-    padding: 20px;
+    padding: 5px 20px 20px 20px;
     line-height: 1.5;
 }
 
