@@ -177,7 +177,8 @@ input:checked+label svg.moon {
     background-color: rgb(134, 214, 246);
     padding: 5px;
     width: 100%;
-    width: 450px;
+    width: 470px;
+    height: 200px;
     border-radius: 2%;
     margin: auto;
     display: flex;
