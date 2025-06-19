@@ -57,7 +57,7 @@ async function fetchWeatherDetails(event) {
         rightDiv.className = "right-box";
 
         leftDiv.innerHTML = `
-    <h2>Weather in ${data.location.name}</h2><br>
+    <h2>Weather in ${data.location.name}</h2>
     <p><strong>Date:</strong> ${data.location.localtime.split(' ')[0]}</p>
     <p><strong>Temperature:</strong> ${data.current.temp_c} °C</p>
     <p><strong>Humidity:</strong> ${data.current.humidity}%</p>
