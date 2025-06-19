@@ -31,7 +31,7 @@ async function fetchWeatherDetails(event) {
     console.log("City entered is", city_name);
     try {
 
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=557c780f44e84738bef175351251406&q=${city_name}`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=557c780f44e84738bef175351251406&q=${city_name}`);
         if (!response.ok) {
             errorMessageDiv.innerHTML = `<h3>Entered City ${city_name} not found.Please search for another City</h3>`;
             errorMessageDiv.style.display = "block";
@@ -77,7 +77,7 @@ async function fetchWeatherDetails(event) {
         currentDiv.appendChild(rightDiv);
         weatherDiv.appendChild(currentDiv);
 
-        const forecast_response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=557c780f44e84738bef175351251406&q=${city_name}&days=6`);
+        const forecast_response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=557c780f44e84738bef175351251406&q=${city_name}&days=6`);
         if (!forecast_response.ok) {
             forecastDiv.innerHTML = `<h3 style="color:red;text-align:center;">City not found.Please search for another City</h3>`;
             throw new Error(`${response.status}`);
