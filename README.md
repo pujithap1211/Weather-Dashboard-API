@@ -14,9 +14,10 @@ Link - https://pujithap1211.github.io/Weather-Dashboard-API/
 - Integrated with real-time Weather API
 
 ## Technologies Used
-HTML: To create the structure and layout of the web application.
-CSS: For styling the components and responsive design.
-JavaScript: To fetch weather data dynamically from the API and update the UI based on user input.
-Free Weather API: Used to access real-time weather conditions and forecasts for any city.
+
+- HTML: To create the structure and layout of the web application.
+- CSS: For styling the components and responsive design.
+- JavaScript: To fetch weather data dynamically from the API and update the UI based on user input.- 
+- Free Weather API: Used to access real-time weather conditions and forecasts for any city.
 
 
